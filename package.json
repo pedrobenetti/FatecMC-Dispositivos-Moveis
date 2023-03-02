@@ -5,9 +5,11 @@
   "repository": "git@github.com:pedrobenetti/FatecMC-Dispositivos-Moveis.git",
   "author": "Pedro Benetti <pedrobenetti@outlook.com.br>",
   "license": "MIT",
+
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "ts-node-dev src/Server.ts"
   },
+
   "dependencies": {
     "@types/express": "^4.17.17",
     "bcryptjs": "^2.4.3",
