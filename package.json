@@ -1,31 +1,36 @@
 {
-  "name": "DispositivosMoveis",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:pedrobenetti/FatecMC-Dispositivos-Moveis.git",
-  "author": "Pedro Benetti <pedrobenetti@outlook.com.br>",
-  "license": "MIT",
-
-  "scripts": {
-    "dev": "ts-node-dev src/Server.ts"
-  },
-
-  "dependencies": {
-    "@types/express": "^4.17.17",
-    "bcryptjs": "^2.4.3",
-    "class-transformer": "^0.5.1",
-    "express": "^4.18.2",
-    "express-async-errors": "^3.1.1",
-    "jsonwebtoken": "^9.0.0",
-    "pg": "^8.9.0",
-    "reflect-metadata": "^0.1.13",
-    "typeorm": "0.2.28"
-  },
-  "devDependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "@types/jsonwebtoken": "^9.0.1",
-    "nodemon": "^2.0.20",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.9.5"
-  }
+   "name": "DispositivosMoveis",
+   "version": "1.0.0",
+   "main": "index.js",
+   "repository": "git@github.com:pedrobenetti/FatecMC-Dispositivos-Moveis.git",
+   "author": "Pedro Benetti <pedrobenetti@outlook.com.br>",
+   "license": "MIT",
+   "scripts": {
+      "dev": "ts-node-dev src/Server.ts",
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+   },
+   "dependencies": {
+      "@types/express": "^4.17.17",
+      "@types/uuid": "^9.0.1",
+      "bcryptjs": "^2.4.3",
+      "class-transformer": "^0.5.1",
+      "express": "^4.18.2",
+      "express-async-errors": "^3.1.1",
+      "jsonwebtoken": "^9.0.0",
+      "mysql": "^2.14.1",
+      "pg": "^8.9.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.28",
+      "uuid": "^9.0.0"
+   },
+   "devDependencies": {
+      "@types/bcryptjs": "^2.4.2",
+      "@types/jsonwebtoken": "^9.0.1",
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.20",
+      "ts-node": "3.3.0",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "3.3.3333"
+   }
 }
