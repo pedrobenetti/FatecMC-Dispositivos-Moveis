@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-class CreateCategoryController { 
+class CreateCategoryController {
 
     async handle(request: Request, response: Response) {
         const { id, name } = request.body;
